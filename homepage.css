@@ -1,0 +1,164 @@
+.app-name-1{
+  color: var(--white);
+  font-size: 2rem;
+}
+.app-name-2{
+  color:var(--primary-bg-color);
+  font-size: 2rem;
+}
+
+.nav-styles {
+  height: 6.5rem;
+  background-color: var(--primary-text-color);
+}
+
+.nav-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--white);
+  font-size: 2rem;
+}
+
+.nav-link:hover {
+  color: var(--primary-bg-color);
+}
+
+.hero-section {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  background-image: url("./images/banner-img.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.overlay {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
+.hero-main-heading {
+  position: absolute;
+  left: 2rem;
+  font-size: 12rem;
+  font-weight: 900;
+  color: var(--white);
+  z-index: 3;
+  top: 0.5rem;
+  
+}
+
+.hero-sub-heading {
+  position: absolute;
+  left: 2rem;
+  top: 20rem;
+  font-size: 4rem;
+  color: var(--white);
+  z-index: 3;
+  font-family: 'Exo', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hero-btn {
+  position: absolute;
+  left: 2rem;
+  top: 35rem;
+  font-size: 3rem;
+  background-color: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+  z-index: 3;
+}
+
+.keyword-highlighter {
+  color: var(--primary-text-color);
+}
+
+.hero-btn:hover {
+  border: 1px solid var(--primary-text-color);
+}
+
+.link-text-hero {
+  color: var(--white);
+}
+
+.sub-heading {
+  font-size: 3rem;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+.btn-shop-now {
+  position: absolute;
+  color: white;
+}
+
+.featured-category-section,
+.featured-brands-section {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--white);
+  justify-content: center;
+  align-items: center;
+}
+
+.category,
+.featured-brands {
+  width: 40rem;
+  cursor: pointer;
+  position: relative;
+  margin: 1rem;
+}
+
+.category:hover {
+  opacity: 0.5;
+}
+
+.category-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3rem;
+  color: var(--white);
+  z-index: 2;
+}
+
+.page-section {
+  width: 100%;
+  height: 60rem;
+  background-image: url(./images/lady-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  margin: auto;
+  position: relative;
+}
+
+.page-section-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 5rem;
+  color: var(--white);
+  z-index: 2;
+}
+
+.page-footer {
+  height: 10rem;
+  background-color: var(--primary-text-color);
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.social-media-link{
+  font-size: 2rem;
+  color: var(--white);
+}
