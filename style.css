@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Antic+Slab&family=EB+Garamond&family=Exo:wght@100&family=Great+Vibes&family=Quicksand:wght@300&family=Raleway:wght@200&family=Roboto+Slab:wght@100;200&family=Source+Serif+4:wght@300&family=Tangerine:wght@400;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 @import "./homepage.css";
+@import "./pages/Product-Listing-Page/Product-Listing-Page.css";
+@import "./pages/signup/signup.css";
+@import "./pages/signin/signin.css";
+@import "./pages/wishlist/wishlist.css";
+@import "./pages/cart/cart.css";
 
 body{
     box-sizing: border-box;
