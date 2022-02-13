@@ -97,7 +97,7 @@
 
 .btn-shop-now {
   position: absolute;
-  color: white;
+  color: var(--white);
 }
 
 .featured-category-section,
