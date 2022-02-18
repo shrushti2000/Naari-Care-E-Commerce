@@ -16,12 +16,13 @@
   
 }
 
-.text{
+.text-link{
     font-size: 2rem;
     font-weight: 900;
     text-align: center;
     cursor: pointer;
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 ::placeholder{
