@@ -22,7 +22,8 @@
 
 .filter-sidebar {
   background-color: var(--white);
-  height: calc(100vh - 6rem);
+  min-height: calc(100vh - 6rem);
+  height: auto;
   grid-area: sidebar;
   width: 30rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -49,6 +50,10 @@
   padding: 1rem;
   margin: 1rem;
   font-size: 2rem;
+}
+
+input[type="radio"],input[type="checkbox"]{
+  cursor: pointer;
 }
 
 .price-filter {
