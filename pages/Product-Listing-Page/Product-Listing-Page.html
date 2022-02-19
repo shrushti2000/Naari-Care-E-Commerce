@@ -1,249 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../../style.css" />
-  </head>
-  <body>
-    <div class="product-page-container">
-      <div class="navigation-container flex-hz">
-        <div class="navigation-item-1">
-          <h5 class="app-name-1">Naari <span class="app-name-2">Care</span></h5>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+
+<body>
+  <div class="product-page-container">
+    <div class="navigation-container flex-hz">
+      <div class="navigation-item-1">
+        <h5 class="app-name-1">Naari <span class="app-name-2">Care</span></h5>
+      </div>
+      <div class="navigation-item-2">
+        <label class="search-bar">
+          <span><i class="fa fa-search"></i></span>
+          <input type="text" class="search-input" placeholder="search.." />
+        </label>
+      </div>
+      <div class="navigation-item-3 flex-hz">
+        <i class="fa fa-shopping-cart nav-icons"><span class="badge-w-icon">1</span></i>
+        <i class="fa fa-heart nav-icons"><span class="badge-w-icon">10</span></i>
+        <button class="btn btn-primary">Logout</button>
+      </div>
+    </div>
+    <div class="filter-sidebar flex-vt">
+      <div class="filter-sidebar-items">
+        <h3 class="filter-sidebar-heading">Filters</h3>
+        <h5 class="filter-heading">Filter by price</h5>
+        <div class="filter-container">
+          <select class="price-filter">
+            <option class="text-sm">100-500</option>
+            <option class="text-sm">500-1000</option>
+            <option class="text-sm">1000-2000</option>
+            <option class="text-sm">2000 and above</option>
+          </select>
         </div>
-        <div class="navigation-item-2">
-          <label class="search-bar">
-            <span><i class="fa fa-search"></i></span>
-            <input type="text" class="search-input" placeholder="search.." />
-          </label>
+        <h5 class="filter-heading">Filter by rating</h5>
+        <div class="filter-container rating-filter">
+          <label class="text-sm"> <input type="radio" /> 5 star</label>
+          <label class="text-sm"> <input type="radio" /> 4 star</label>
+          <label class="text-sm"> <input type="radio" /> 3 star</label>
+          <label class="text-sm"> <input type="radio" /> 2 star</label>
         </div>
-        <div class="navigation-item-3 flex-hz">
-          <button class="btn btn-primary">Logout</button>
-          <i class="fa fa-shopping-cart nav-icons"
-            ><span class="badge-w-icon">1</span></i
-          >
-          <i class="fa fa-heart nav-icons"
-            ><span class="badge-w-icon">10</span></i
-          >
+        <h5 class="filter-heading">Sort by</h5>
+        <div class="filter-container sort-by">
+          <label class="text-sm"> <input type="radio" />Low to High</label>
+          <label class="text-sm"> <input type="radio" /> High to Low</label>
         </div>
       </div>
-      <div class="filter-sidebar flex-vt">
-        <div class="filter-sidebar-items">
-          <h3 class="filter-sidebar-heading">Filters</h3>
-          <h5 class="filter-heading">Filter by price</h5>
-          <div class="filter-container">
-            <select class="price-filter">
-              <option class="text-sm">100-500</option>
-              <option class="text-sm">500-1000</option>
-              <option class="text-sm">1000-2000</option>
-              <option class="text-sm">2000 and above</option>
-            </select>
+    </div>
+    <div class="product-display-container">
+      <h2 class="sub-heading">Showing all Products</h2>
+      <div class="product-container">
+        <div class="card__container flex-vt">
+          <img class="card__image" src="../../images/prd-img.jpg" />
+          <h3 class="card__title">Olay Cream</h3>
+          <p class="card__description">
+            Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
+            30, Daily Illuminating Face Moisturizer for Glowing Skin - With
+            Glycerin & Niacinamide
+          </p>
+          <div class="card__text-wrapper-1 flex-hz">
+            <p class="card__text-primary">₹ 639</p>
+            <p class="card__text-secondary">20% off</p>
           </div>
-          <h5 class="filter-heading">Filter by rating</h5>
-          <div class="filter-container rating-filter">
-            <label class="text-sm"> <input type="radio" /> 5 star</label>
-            <label class="text-sm"> <input type="radio" /> 4 star</label>
-            <label class="text-sm"> <input type="radio" /> 3 star</label>
-            <label class="text-sm"> <input type="radio" /> 2 star</label>
+          <div class="card__text-wrapper-2">
+            <span>4.4</span>
+            <span><i class="fa fa-star"></i></span>
           </div>
-          <h5 class="filter-heading">Sort by</h5>
-          <div class="filter-container sort-by">
-            <label class="text-sm"> <input type="radio" />Low to High</label>
-            <label class="text-sm"> <input type="radio" /> High to Low</label>
+          <div class="card__footer flex-hz">
+            <div><i class="fa fa-heart card__icon"></i></div>
+            <button class="btn btn-primary card__btn-primary">
+              ADD TO CART
+            </button>
           </div>
         </div>
-      </div>
-      <div class="product-display-container">
-        <h2 class="sub-heading">Showing all Products</h2>
-        <div class="product-container">
-          <div class="card__container flex-vt">
-            <img class="card__image" src="../../images/prd-img.jpg" />
-            <h3 class="card__title">Olay Cream</h3>
-            <p class="card__description">
-              Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
-              30, Daily Illuminating Face Moisturizer for Glowing Skin - With
-              Glycerin & Niacinamide
-            </p>
-            <div class="card__text-wrapper-1 flex-hz">
-              <p class="card__text-primary">₹ 639</p>
-              <p class="card__text-secondary">20% off</p>
-            </div>
-            <div class="card__text-wrapper-2">
-              <span>4.4</span>
-              <span><i class="fa fa-star"></i></span>
-            </div>
-            <div class="card__footer flex-hz">
-              <div><i class="fa fa-heart card__icon"></i></div>
-              <button class="btn btn-primary card__btn-primary">
-                ADD TO CART
-              </button>
-            </div>
+        <div class="card__container flex-vt">
+          <img class="card__image" src="../../images/prd-img.jpg" />
+          <h3 class="card__title">Olay Cream</h3>
+          <p class="card__description">
+            Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
+            30, Daily Illuminating Face Moisturizer for Glowing Skin - With
+            Glycerin & Niacinamide
+          </p>
+          <div class="card__text-wrapper-1 flex-hz">
+            <p class="card__text-primary">₹ 639</p>
+            <p class="card__text-secondary">20% off</p>
           </div>
-          <div class="card__container flex-vt">
-            <img class="card__image" src="../../images/prd-img.jpg" />
-            <h3 class="card__title">Olay Cream</h3>
-            <p class="card__description">
-              Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
-              30, Daily Illuminating Face Moisturizer for Glowing Skin - With
-              Glycerin & Niacinamide
-            </p>
-            <div class="card__text-wrapper-1 flex-hz">
-              <p class="card__text-primary">₹ 639</p>
-              <p class="card__text-secondary">20% off</p>
-            </div>
-            <div class="card__text-wrapper-2">
-              <span>4.4</span>
-              <span><i class="fa fa-star"></i></span>
-            </div>
-            <div class="card__footer flex-hz">
-              <div><i class="fa fa-heart card__icon"></i></div>
-              <button class="btn btn-primary card__btn-primary">
-                ADD TO CART
-              </button>
-            </div>
+          <div class="card__text-wrapper-2">
+            <span>4.4</span>
+            <span><i class="fa fa-star"></i></span>
           </div>
-          <div class="card__container flex-vt">
-            <img class="card__image" src="../../images/prd-img.jpg" />
-            <h3 class="card__title">Olay Cream</h3>
-            <p class="card__description">
-              Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
-              30, Daily Illuminating Face Moisturizer for Glowing Skin - With
-              Glycerin & Niacinamide
-            </p>
-            <div class="card__text-wrapper-1 flex-hz">
-              <p class="card__text-primary">₹ 639</p>
-              <p class="card__text-secondary">20% off</p>
-            </div>
-            <div class="card__text-wrapper-2">
-              <span>4.4</span>
-              <span><i class="fa fa-star"></i></span>
-            </div>
-            <div class="card__footer flex-hz">
-              <div><i class="fa fa-heart card__icon"></i></div>
-              <button class="btn btn-primary card__btn-primary">
-                ADD TO CART
-              </button>
-            </div>
+          <div class="card__footer flex-hz">
+            <div><i class="fa fa-heart card__icon"></i></div>
+            <button class="btn btn-primary card__btn-primary">
+              ADD TO CART
+            </button>
           </div>
-          <div class="card__container flex-vt">
-            <img class="card__image" src="../../images/prd-img.jpg" />
-            <h3 class="card__title">Olay Cream</h3>
-            <p class="card__description">
-              Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
-              30, Daily Illuminating Face Moisturizer for Glowing Skin - With
-              Glycerin & Niacinamide
-            </p>
-            <div class="card__text-wrapper-1 flex-hz">
-              <p class="card__text-primary">₹ 639</p>
-              <p class="card__text-secondary">20% off</p>
-            </div>
-            <div class="card__text-wrapper-2">
-              <span>4.4</span>
-              <span><i class="fa fa-star"></i></span>
-            </div>
-            <div class="card__footer flex-hz">
-              <div><i class="fa fa-heart card__icon"></i></div>
-              <button class="btn btn-primary card__btn-primary">
-                ADD TO CART
-              </button>
-            </div>
+        </div>
+        <div class="card__container flex-vt">
+          <img class="card__image" src="../../images/prd-img.jpg" />
+          <h3 class="card__title">Olay Cream</h3>
+          <p class="card__description">
+            Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
+            30, Daily Illuminating Face Moisturizer for Glowing Skin - With
+            Glycerin & Niacinamide
+          </p>
+          <div class="card__text-wrapper-1 flex-hz">
+            <p class="card__text-primary">₹ 639</p>
+            <p class="card__text-secondary">20% off</p>
           </div>
-          <div class="card__container flex-vt">
-            <img class="card__image" src="../../images/prd-img.jpg" />
-            <h3 class="card__title">Olay Cream</h3>
-            <p class="card__description">
-              Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
-              30, Daily Illuminating Face Moisturizer for Glowing Skin - With
-              Glycerin & Niacinamide
-            </p>
-            <div class="card__text-wrapper-1 flex-hz">
-              <p class="card__text-primary">₹ 639</p>
-              <p class="card__text-secondary">20% off</p>
-            </div>
-            <div class="card__text-wrapper-2">
-              <span>4.4</span>
-              <span><i class="fa fa-star"></i></span>
-            </div>
-            <div class="card__footer flex-hz">
-              <div><i class="fa fa-heart card__icon"></i></div>
-              <button class="btn btn-primary card__btn-primary">
-                ADD TO CART
-              </button>
-            </div>
+          <div class="card__text-wrapper-2">
+            <span>4.4</span>
+            <span><i class="fa fa-star"></i></span>
           </div>
-          <div class="card__container flex-vt">
-            <img class="card__image" src="../../images/prd-img.jpg" />
-            <h3 class="card__title">Olay Cream</h3>
-            <p class="card__description">
-              Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
-              30, Daily Illuminating Face Moisturizer for Glowing Skin - With
-              Glycerin & Niacinamide
-            </p>
-            <div class="card__text-wrapper-1 flex-hz">
-              <p class="card__text-primary">₹ 639</p>
-              <p class="card__text-secondary">20% off</p>
-            </div>
-            <div class="card__text-wrapper-2">
-              <span>4.4</span>
-              <span><i class="fa fa-star"></i></span>
-            </div>
-            <div class="card__footer flex-hz">
-              <div><i class="fa fa-heart card__icon"></i></div>
-              <button class="btn btn-primary card__btn-primary">
-                ADD TO CART
-              </button>
-            </div>
+          <div class="card__footer flex-hz">
+            <div><i class="fa fa-heart card__icon"></i></div>
+            <button class="btn btn-primary card__btn-primary">
+              ADD TO CART
+            </button>
           </div>
-          <div class="card__container flex-vt">
-            <img class="card__image" src="../../images/prd-img.jpg" />
-            <h3 class="card__title">Olay Cream</h3>
-            <p class="card__description">
-              Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
-              30, Daily Illuminating Face Moisturizer for Glowing Skin - With
-              Glycerin & Niacinamide
-            </p>
-            <div class="card__text-wrapper-1 flex-hz">
-              <p class="card__text-primary">₹ 639</p>
-              <p class="card__text-secondary">20% off</p>
-            </div>
-            <div class="card__text-wrapper-2">
-              <span>4.4</span>
-              <span><i class="fa fa-star"></i></span>
-            </div>
-            <div class="card__footer flex-hz">
-              <div><i class="fa fa-heart card__icon"></i></div>
-              <button class="btn btn-primary card__btn-primary">
-                ADD TO CART
-              </button>
-            </div>
+        </div>
+        <div class="card__container flex-vt">
+          <img class="card__image" src="../../images/prd-img.jpg" />
+          <h3 class="card__title">Olay Cream</h3>
+          <p class="card__description">
+            Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
+            30, Daily Illuminating Face Moisturizer for Glowing Skin - With
+            Glycerin & Niacinamide
+          </p>
+          <div class="card__text-wrapper-1 flex-hz">
+            <p class="card__text-primary">₹ 639</p>
+            <p class="card__text-secondary">20% off</p>
           </div>
-          <div class="card__container flex-vt">
-            <img class="card__image" src="../../images/prd-img.jpg" />
-            <h3 class="card__title">Olay Cream</h3>
-            <p class="card__description">
-              Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
-              30, Daily Illuminating Face Moisturizer for Glowing Skin - With
-              Glycerin & Niacinamide
-            </p>
-            <div class="card__text-wrapper-1 flex-hz">
-              <p class="card__text-primary">₹ 639</p>
-              <p class="card__text-secondary">20% off</p>
-            </div>
-            <div class="card__text-wrapper-2">
-              <span>4.4</span>
-              <span><i class="fa fa-star"></i></span>
-            </div>
-            <div class="card__footer flex-hz">
-              <div><i class="fa fa-heart card__icon"></i></div>
-              <button class="btn btn-primary card__btn-primary">
-                ADD TO CART
-              </button>
-            </div>
+          <div class="card__text-wrapper-2">
+            <span>4.4</span>
+            <span><i class="fa fa-star"></i></span>
+          </div>
+          <div class="card__footer flex-hz">
+            <div><i class="fa fa-heart card__icon"></i></div>
+            <button class="btn btn-primary card__btn-primary">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="card__container flex-vt">
+          <img class="card__image" src="../../images/prd-img.jpg" />
+          <h3 class="card__title">Olay Cream</h3>
+          <p class="card__description">
+            Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
+            30, Daily Illuminating Face Moisturizer for Glowing Skin - With
+            Glycerin & Niacinamide
+          </p>
+          <div class="card__text-wrapper-1 flex-hz">
+            <p class="card__text-primary">₹ 639</p>
+            <p class="card__text-secondary">20% off</p>
+          </div>
+          <div class="card__text-wrapper-2">
+            <span>4.4</span>
+            <span><i class="fa fa-star"></i></span>
+          </div>
+          <div class="card__footer flex-hz">
+            <div><i class="fa fa-heart card__icon"></i></div>
+            <button class="btn btn-primary card__btn-primary">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="card__container flex-vt">
+          <img class="card__image" src="../../images/prd-img.jpg" />
+          <h3 class="card__title">Olay Cream</h3>
+          <p class="card__description">
+            Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
+            30, Daily Illuminating Face Moisturizer for Glowing Skin - With
+            Glycerin & Niacinamide
+          </p>
+          <div class="card__text-wrapper-1 flex-hz">
+            <p class="card__text-primary">₹ 639</p>
+            <p class="card__text-secondary">20% off</p>
+          </div>
+          <div class="card__text-wrapper-2">
+            <span>4.4</span>
+            <span><i class="fa fa-star"></i></span>
+          </div>
+          <div class="card__footer flex-hz">
+            <div><i class="fa fa-heart card__icon"></i></div>
+            <button class="btn btn-primary card__btn-primary">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="card__container flex-vt">
+          <img class="card__image" src="../../images/prd-img.jpg" />
+          <h3 class="card__title">Olay Cream</h3>
+          <p class="card__description">
+            Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
+            30, Daily Illuminating Face Moisturizer for Glowing Skin - With
+            Glycerin & Niacinamide
+          </p>
+          <div class="card__text-wrapper-1 flex-hz">
+            <p class="card__text-primary">₹ 639</p>
+            <p class="card__text-secondary">20% off</p>
+          </div>
+          <div class="card__text-wrapper-2">
+            <span>4.4</span>
+            <span><i class="fa fa-star"></i></span>
+          </div>
+          <div class="card__footer flex-hz">
+            <div><i class="fa fa-heart card__icon"></i></div>
+            <button class="btn btn-primary card__btn-primary">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="card__container flex-vt">
+          <img class="card__image" src="../../images/prd-img.jpg" />
+          <h3 class="card__title">Olay Cream</h3>
+          <p class="card__description">
+            Lakme Absolute Perfect Radiance Brightening Day Cream 50 g, SPF
+            30, Daily Illuminating Face Moisturizer for Glowing Skin - With
+            Glycerin & Niacinamide
+          </p>
+          <div class="card__text-wrapper-1 flex-hz">
+            <p class="card__text-primary">₹ 639</p>
+            <p class="card__text-secondary">20% off</p>
+          </div>
+          <div class="card__text-wrapper-2">
+            <span>4.4</span>
+            <span><i class="fa fa-star"></i></span>
+          </div>
+          <div class="card__footer flex-hz">
+            <div><i class="fa fa-heart card__icon"></i></div>
+            <button class="btn btn-primary card__btn-primary">
+              ADD TO CART
+            </button>
           </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
